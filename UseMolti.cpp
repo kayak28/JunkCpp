@@ -22,4 +22,9 @@ g++ -o executableFilename FileNameMain.o FileName.o
 //where executableFilename is voluntary
 way to complie c++ from terminal....
 
+given .o file and executable file are NOT visible 
+
+
+
+
 */
