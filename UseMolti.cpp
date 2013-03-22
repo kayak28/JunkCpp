@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//Prototype of function, mul()
+//Function Prototype Dclaration: mul()
 double mul(double x, double y);
 
 int main()
@@ -15,3 +15,11 @@ int main()
 	return 0;
 
 }
+/*
+g++ -c FileName.cpp// NOT contain main
+g++ -c FileNameMain.cpp //contains main
+g++ -o executableFilename FileNameMain.o FileName.o
+//where executableFilename is voluntary
+way to complie c++ from terminal....
+
+*/
