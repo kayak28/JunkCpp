@@ -5,14 +5,14 @@ int main()
 {
 	int andy;
 	int fred;
-	int ted;
+	int *ted;//change int to int* 
 	andy = 25;
 	fred = andy;
-	ted = &andy;//invarid conversion from int* to int
+	ted = &andy;
 
 	cout << "andy = " << andy;
-	cout << "\n fred = " << fred;
-	cout << "\n ted = " << ted;
+	cout << "\nfred = " << fred;
+	cout << "\nted = " << ted << "\n";
 
 	return 0;
 }
